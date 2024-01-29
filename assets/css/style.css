@@ -1,13 +1,13 @@
 footer {
     position: fixed;
     background-color: grey;
-    color: whitesmoke
+    color: whitesmoke;
     text-align: center;
 }
 
 nav {
-    
+
     background-color: grey;
-    color : white
+    color: white;
     text-align: center;
 }
