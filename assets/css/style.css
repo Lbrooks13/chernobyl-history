@@ -1,0 +1,13 @@
+footer {
+    position: fixed;
+    background-color: grey;
+    color: whitesmoke
+    text-align: center;
+}
+
+nav {
+    
+    background-color: grey;
+    color : white
+    text-align: center;
+}
