@@ -1,8 +1,24 @@
+#index {
+    background-image: url('https: //images.pexels.com/photos/1411419/pexels-photo-1411419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    
+}
+
+
+
+
+
+
 footer {
-    position: fixed;
+    padding: 1em;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
     background-color: grey;
     color: whitesmoke;
     text-align: center;
+    text-transform: uppercase;
+
 }
 
 nav {
@@ -10,4 +26,28 @@ nav {
     background-color: grey;
     color: white;
     text-align: center;
+    padding: 0 20px;
+    font-size: 0.10rem;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+}
+
+nav > a:hover {
+    color: silver;
+}
+
+footer > a {
+color: white;
+text-decoration: none;
+padding: 0 15px;
+font-size: 0.8rem;
+}
+
+footer > span {
+color: darkgray;
+
 }
