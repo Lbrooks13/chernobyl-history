@@ -1,8 +1,11 @@
-#index {
-    background-image: url('https: //images.pexels.com/photos/1411419/pexels-photo-1411419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+#index-background {
+    background-image: url('https: //pixabay.com/photos/pripyat-chernobyl-tea-1374515/');
     
 }
 
+#ul-a {
+    list-style-type: circle;
+}
 
 
 
@@ -21,7 +24,7 @@ footer {
 
 }
 
-nav {
+/*nav {
 
     background-color: grey;
     color: white;
@@ -39,7 +42,7 @@ nav > a {
 nav > a:hover {
     color: silver;
 }
-
+*/
 footer > a {
 color: white;
 text-decoration: none;
@@ -49,5 +52,12 @@ font-size: 0.8rem;
 
 footer > span {
 color: darkgray;
+
+}
+
+.heading-background {
+    background-color: #403D39;
+    margin: 0;
+    color: whitesmoke;
 
 }
