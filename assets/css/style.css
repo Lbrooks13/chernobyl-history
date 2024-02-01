@@ -26,11 +26,7 @@ footer {
 
 /*nav {
 
-    background-color: grey;
-    color: white;
-    text-align: center;
-    padding: 0 20px;
-    font-size: 0.10rem;
+   
 }
 
 nav > a {
@@ -60,4 +56,41 @@ color: darkgray;
     margin: 0;
     color: whitesmoke;
 
+}
+
+#explosion-header {
+    text-align: center;
+}
+
+#countdown {
+    list-style-type: none;
+}
+
+.page-quotes {
+    padding: 1rem 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.page-head-nav {
+    margin-bottom: 10px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 1.3rem;
+    
+    
+}
+
+a:visited {
+    color:white;
+}
+
+a:link {
+    color:none;
+}
+
+a:visited, a:link {
+    text-decoration: none;
 }
