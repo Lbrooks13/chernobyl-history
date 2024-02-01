@@ -64,6 +64,7 @@ color: darkgray;
 
 #countdown {
     list-style-type: none;
+    padding: 2;
 }
 
 .page-quotes {
@@ -77,8 +78,10 @@ color: darkgray;
     background-color: grey;
     color: white;
     text-align: center;
-    padding: 0 20px;
+    padding: 1em;
     font-size: 1.3rem;
+    word-spacing: 1rem;
+   
     
     
 }
@@ -93,4 +96,28 @@ a:link {
 
 a:visited, a:link {
     text-decoration: none;
+}
+#disaster-1 {
+    position: relative;
+    
+    top: -10px;
+    background-color: grey;
+    width: 60%;
+    margin: 1rem 0;
+}
+
+#disaster-2 {
+    position: relative;
+    z-index:1;
+    background-color: grey;
+    width: 60%;
+
+}
+
+#disaster-3 {
+    position: relative;
+   
+    top: -10px;
+    background-color: grey;
+    width: 60%;
 }
