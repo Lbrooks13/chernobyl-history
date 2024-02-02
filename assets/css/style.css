@@ -3,7 +3,7 @@
 
 
     
-}
+
 
 #ul-a {
     list-style-type: circle;
@@ -23,6 +23,8 @@ footer {
     color: whitesmoke;
     text-align: center;
     text-transform: uppercase;
+    position: fixed;
+    bottom: 0;
     
 
 }
@@ -52,6 +54,7 @@ font-size: 0.8rem;
 footer > span {
 color: darkgray;
 
+
 }
 
 .heading-background {
@@ -74,7 +77,8 @@ color: darkgray;
     padding: 1rem 0;
     margin-bottom: 50px;
     text-align: center;
-    text-shadow: 1px 1px 2px #5f5a4d;
+    border-radius: 10px;
+    
 }
 
 .page-head-nav {
@@ -86,8 +90,14 @@ color: darkgray;
     font-size: 1.3rem;
     word-spacing: 1rem;
     text-transform: uppercase;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-   
+    font-family:'Lucida Sans',
+        'Lucida Sans Regular',
+        'Lucida Grande',
+        'Lucida Sans Unicode',
+        Geneva,
+        Verdana,
+        sans-serif;
+   border-radius: 10px;
     
     
 }
@@ -107,17 +117,19 @@ a:visited, a:link {
 .content-box {
     background-color: #969286;
     color: whitesmoke;
-    text-transform: center;
+    text-align: center;
     width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+   
 }
 
-#index-content-section {
-    
-    
-}
+
 
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('https://d.newsweek.com/en/full/2180295/chernobyl-ferris-wheel.jpg');
+    background-position: center;
 }
  div > p {
     text-align: center;
@@ -125,4 +137,19 @@ body {
 
  li > strong {
     color: black;
+ }
+
+ #index-bg {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+ }
+
+ .margin-indent {
+padding: 0 350px 0 350px;
+ }
+
+ section p {
+    padding: 5px;
+    text-align: center;
  }
