@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
+
+
 #index-background {
     background-image: url('https: //pixabay.com/photos/pripyat-chernobyl-tea-1374515/');
     
@@ -21,6 +25,7 @@ footer {
     color: whitesmoke;
     text-align: center;
     text-transform: uppercase;
+    
 
 }
 
@@ -71,16 +76,19 @@ color: darkgray;
     padding: 1rem 0;
     margin-bottom: 50px;
     text-align: center;
+    text-shadow: 1px 1px 2px #5f5a4d;
 }
 
 .page-head-nav {
     margin-bottom: 10px;
-    background-color: grey;
-    color: white;
+    background-color: #5f5a4d;
+    color: whitesmoke;
     text-align: center;
     padding: 1em;
     font-size: 1.3rem;
     word-spacing: 1rem;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
    
     
     
@@ -97,27 +105,20 @@ a:link {
 a:visited, a:link {
     text-decoration: none;
 }
-#disaster-1 {
-    position: relative;
+
+.content-box {
+    background-color: #969286;
+    color: whitesmoke;
+    text-transform: center;
+    width: 100%;
+}
+
+#index-content-section {
     
-    top: -10px;
-    background-color: grey;
-    width: 60%;
-    margin: 1rem 0;
+    background-image: url("https: //images.pexels.com/photos/13714462/pexels-photo-13714462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    z-index: 1;
 }
 
-#disaster-2 {
-    position: relative;
-    z-index:1;
-    background-color: grey;
-    width: 60%;
-
-}
-
-#disaster-3 {
-    position: relative;
-   
-    top: -10px;
-    background-color: grey;
-    width: 60%;
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
