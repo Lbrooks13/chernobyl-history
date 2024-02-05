@@ -1,39 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
-
-
-
-    
-
+@import url("https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap");
 
 #ul-a {
-    list-style-type: circle;
+  list-style-type: circle;
 }
-
-
-
-
 
 footer {
-    padding: 1em;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
-    background-color: grey;
-    color: whitesmoke;
-    text-align: center;
-    text-transform: uppercase;
-    position: fixed;
-    bottom: 0;
-    
-
+  padding: 1em;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  background-color: grey;
+  color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 0;
 }
 
-/*nav {
-
-   
-}
-
+/*
 nav > a {
     text-decoration: none;
     color: white;
@@ -44,112 +29,121 @@ nav > a:hover {
     color: silver;
 }
 */
+
 footer > a {
-color: white;
-text-decoration: none;
-padding: 0 15px;
-font-size: 0.8rem;
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 0.8rem;
 }
 
 footer > span {
-color: darkgray;
-
-
+  color: darkgray;
 }
 
 .heading-background {
-    background-color: #403D39;
-    margin: 0;
-    color: whitesmoke;
-
+  background-color: #403d39;
+  margin: 0;
+  color: whitesmoke;
 }
 
 #explosion-header {
-    text-align: center;
+  text-align: center;
 }
 
 #countdown {
-    list-style-type: none;
-    padding: 2;
+  list-style-type: none;
+  padding: 2;
 }
 
 .page-quotes {
-    padding: 1rem 0;
-    margin-bottom: 50px;
-    text-align: center;
-    border-radius: 10px;
-    
+  padding: 1rem 0;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .page-head-nav {
-    margin-bottom: 10px;
-    background-color: #5f5a4d;
-    color: whitesmoke;
-    text-align: center;
-    padding: 1em;
-    font-size: 1.3rem;
-    word-spacing: 1rem;
-    text-transform: uppercase;
-    font-family:'Lucida Sans',
-        'Lucida Sans Regular',
-        'Lucida Grande',
-        'Lucida Sans Unicode',
-        Geneva,
-        Verdana,
-        sans-serif;
-   border-radius: 10px;
-    
-    
+  margin-bottom: 10px;
+  background-color: #5f5a4d;
+  color: whitesmoke;
+  text-align: center;
+  padding: 1em;
+  font-size: 1.3rem;
+  word-spacing: 1rem;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 10px;
 }
 
 a:visited {
-    color:white;
+  color: white;
 }
 
 a:link {
-    color:white;
+  color: white;
 }
 
-a:visited, a:link {
-    text-decoration: none;
+a:visited,
+a:link {
+  text-decoration: none;
 }
 
 .content-box {
-    background-color: #969286;
-    color: whitesmoke;
-    text-align: center;
-    width: 100%;
-    border-radius: 10px;
-    padding: 5px;
-   
+  background-color: #969286;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+  text-align: left;
+  margin-bottom: 10px;
 }
-
-
 
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url('https://d.newsweek.com/en/full/2180295/chernobyl-ferris-wheel.jpg');
-    background-position: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url("https://d.newsweek.com/en/full/2180295/chernobyl-ferris-wheel.jpg");
+  background-position: center;
 }
- div > p {
-    text-align: center;
- }
 
- li > strong {
-    color: black;
- }
+div > p {
+  text-align: left;
+}
 
- #index-bg {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
- }
+li > strong {
+  color: black;
+}
 
- .margin-indent {
-padding: 0 350px 0 350px;
- }
+.margin-indent {
+  padding: 0 350px 0 350px;
+}
 
- section p {
-    padding: 5px;
-    text-align: center;
- }
+h3 {
+  text-align: center;
+}
+
+#index-content-section {
+  text-align: left;
+}
+.book-form {
+    padding-left: 40px;
+}
+#form-box {
+    display: flex;
+}
+#form-image {
+    float: right;
+    max-height: 30%;
+    max-width: 40%;
+    padding-right: 20px;
+    padding-top: 22px;
+}
+#index-1 {
+    max-height: 40%;
+    max-width: 40%;    
+}
+
+#index-2 {
+    max-height: 40%;
+    max-width: 40%;
+}
