@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,44 +7,47 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <meta name="keywords" content="Chernobyl, Prypiat, nuclear, history, accident, explosion" />
     <meta name="author" content="Liam Brooks 2024" />
-    <title>Chernobyl - Media</title>
+    <title>Chernobyl - Tours</title>
 </head>
 
 <body>
   <div class="container">
     <nav class="page-head-nav">
+        <img src="https://pngimg.com/uploads/radiation/small/radiation_PNG99530.png" alt="Radiation symbol">
         <a href="index.html" aria-label="Go to home page">Home</a>
         <a href="designflaw.html" aria-label="Go to disaster">Disaster</a>
         <a href="media.html" aria-label="Go to tours section">Tours</a>
     </nav>
+    
     <h2 style="font-size: 18px" class="heading-background page-quotes">
         <em>"Every lie we tell incurs debt to the truth. Sooner or later this debt
             is paid"</em>
         - Valery Legasov
     </h2>
 
-    <div class="content-box form-box">
-        <h2 style="text-align: center;">Please use the form below to book your tour around the Exclusion zone. Once submitted, our team will be in touch within 24 hours to verify your booking.</h2>
-        &nbsp;
-        <img id="form-image" src="https://www.mywanderlust.pl/wp-content/uploads/2017/10/chernobyl-tour-140.jpg" alt="Bumpercars in chernobyl"/>
+    <div class="content-box form-box container">
+        <h2 style="text-align: center;">Please use the form below to book your tour around the exclusion zone. Once submitted, our team will be in touch within 24 hours to verify your booking.</h2>
+        
         <form class="book-form">
-            <div class=>
+            <div id="name">
                 <label for="name-field">Name</label>
                 <input id="name-field" type="text" name="full-name" placeholder="Your name" required>
             </div>
-            <div>
+
+            <div id="email">
                 <label for="email-field">Email</label>
                 <input style="margin-left: 3px" id="email-field" type="email" name="email" placeholder="Your email" required>
             </div>
-            <div>
+            
+            <div id="date">
                 <label for="date">Date</label>
-                <input style="margin-left: 9px" type="date" id="date" name="date">
+                <input style="margin-left: 9px" type="date" id="date" name="date" required>
             </div>
            
-            <div>
-                <p>Please tell us where you would like to visit:</p>
+            <div id="visit">
+                <p>Where would you would like to visit?</p>
                 <input type="checkbox" name="reactor">
-                <label for="reactor">Reactor 4 - Chernobyl Powerplant</label>
+                <label for="reactor">Reactor 4</label>
                 <br>
                 <input type="checkbox" name="prypiat">
                 <label for="prypiat">Prypiat</label>
@@ -53,25 +55,16 @@
                 <input type="checkbox" name="vehicle-graveyard">
                 <label for="vehicle-graveyard">Vehicle Graveyard</label>
             </div>
-            <br>
+            
             <div>
-                <label for="requests">Special requests:</label>
-        
-                <textarea placeholder="Please inform us of any special requests (Wheelchair access etc)" rows="5" cols="120"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Book your tour">
-                <input type="reset" value="Reset booking form">
+                <input id="button" type="submit" value="Book your tour">
+                <input id="button" type="reset" value="Reset booking form">
             </div>
         </form>
-
-        
-
-
-
     </div>
   </div>
 </body>
+
 <footer>
     <span>Copyright © Liam Brooks 2024</span>
     <a href="https://www.linkedin.com/in/liam-brooks-8236342a5" target="_blank" rel="noopener"
@@ -79,5 +72,4 @@
     <a href="https://www.facebook.com/liam.brooks.370177/" target="_blank" rel="noopener"
         aria-label="Find me on Facebook (Opens in a new tab)">Facebook</a>
 </footer>
-
 </html>

@@ -20,17 +20,11 @@ footer {
   bottom: 0;
 }
 
-/*
-nav > a {
-    text-decoration: none;
-    color: white;
-    margin: 1rem;
+nav>img {
+  width: 40px;
+  padding-right: 40px;
+  float:inline-start;
 }
-
-nav > a:hover {
-    color: silver;
-}
-*/
 
 footer > a {
   color: white;
@@ -40,7 +34,8 @@ footer > a {
 }
 
 footer > span {
-  color: darkgray;
+  color: white;
+  font: bold;
 }
 
 .heading-background {
@@ -118,9 +113,6 @@ a:link {
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /*background-image: url("https://d.newsweek.com/en/full/2180295/chernobyl-ferris-wheel.jpg");
-  background-position: center;
-  background-attachment: fixed;*/
 }
 
 div > p {
@@ -155,6 +147,7 @@ h3 {
     padding-top: 22px;
     padding-bottom: 46px;
 }
+
 #index {
     max-height: 30%;
     max-width: 30%;    
@@ -167,11 +160,62 @@ h3 {
 }
 
 #xenon {
-  color: #5f5a4d
+  color: #5f5a4d;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
+#visit {
+  padding: 10px 0;
+}
 
+#name, #email, #date {
+  margin-bottom: 5px;
+}
+
+#button {
+  border-radius: 5px;
+  background-color:#403d39;
+  color: white;
+}
+
+#button:hover {
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 95%;
+  }
+ 
+  nav {
+    width: 80%;
+  }
+
+  #map-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video-em {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .picture-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#index{
+  max-width: 100%;
   }
 }
