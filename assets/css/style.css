@@ -105,8 +105,7 @@ a:link {
 }
 
 .map {
-  width:980px;
-  height: 100%;
+  width:960px;
   margin-bottom: 30px;
 }
 
@@ -148,7 +147,7 @@ h3 {
     padding-bottom: 46px;
 }
 
-#index {
+.index {
     max-height: 30%;
     max-width: 30%;    
     padding: 0.6rem;
@@ -167,17 +166,17 @@ h3 {
   padding: 10px 0;
 }
 
-#name, #email, #date {
+.name, .email, .date {
   margin-bottom: 5px;
 }
 
-#button {
+.button {
   border-radius: 5px;
   background-color:#403d39;
   color: white;
 }
 
-#button:hover {
+.button:hover {
   border-radius: 5px;
   background-color: white;
   color: black;
@@ -198,7 +197,9 @@ h3 {
     align-items: center;
     justify-content: center;
   }
-
+.map {
+  width: 100%;
+}
   .video-em {
     max-width: 100%;
     display: flex;
@@ -215,7 +216,7 @@ h3 {
     align-items: center;
   }
 
-#index{
+.index{
   max-width: 100%;
   }
 }

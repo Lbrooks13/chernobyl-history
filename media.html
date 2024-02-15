@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <meta name="keywords" content="Chernobyl, Prypiat, nuclear, history, accident, explosion" />
-    <meta name="author" content="Liam Brooks 2024" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="keywords" content="Chernobyl, Prypiat, nuclear, history, accident, explosion">
+    <meta name="author" content="Liam Brooks 2024">
     <title>Chernobyl - Tours</title>
 </head>
 
@@ -29,47 +29,47 @@
         <h2 style="text-align: center;">Please use the form below to book your tour around the exclusion zone. Once submitted, our team will be in touch within 24 hours to verify your booking.</h2>
         
         <form class="book-form">
-            <div id="name">
+            <div class="name">
                 <label for="name-field">Name</label>
                 <input id="name-field" type="text" name="full-name" placeholder="Your name" required>
             </div>
 
-            <div id="email">
+            <div class="email">
                 <label for="email-field">Email</label>
                 <input style="margin-left: 3px" id="email-field" type="email" name="email" placeholder="Your email" required>
             </div>
             
-            <div id="date">
+            <div class="date">
                 <label for="date">Date</label>
                 <input style="margin-left: 9px" type="date" id="date" name="date" required>
             </div>
            
             <div id="visit">
                 <p>Where would you would like to visit?</p>
-                <input type="checkbox" name="reactor">
+                <input type="checkbox" name="reactor" id="name">
                 <label for="reactor">Reactor 4</label>
                 <br>
-                <input type="checkbox" name="prypiat">
+                <input type="checkbox" name="prypiat" id="prypiat">
                 <label for="prypiat">Prypiat</label>
                 <br>
-                <input type="checkbox" name="vehicle-graveyard">
+                <input type="checkbox" name="vehicle-graveyard" id="vehicle-graveyard">
                 <label for="vehicle-graveyard">Vehicle Graveyard</label>
             </div>
             
             <div>
-                <input id="button" type="submit" value="Book your tour">
-                <input id="button" type="reset" value="Reset booking form">
+                <input class="button" type="submit" value="Book your tour">
+                <input class="button" type="reset" value="Reset booking form">
             </div>
         </form>
     </div>
   </div>
-</body>
-
-<footer>
+  <footer>
     <span>Copyright © Liam Brooks 2024</span>
     <a href="https://www.linkedin.com/in/liam-brooks-8236342a5" target="_blank" rel="noopener"
         aria-label="Find me on Linkedin (Opens in a new tab)">Linkedin</a>
     <a href="https://www.facebook.com/liam.brooks.370177/" target="_blank" rel="noopener"
         aria-label="Find me on Facebook (Opens in a new tab)">Facebook</a>
 </footer>
+</body>
+
 </html>
