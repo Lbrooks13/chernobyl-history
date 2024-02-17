@@ -188,9 +188,10 @@ h3 {
 
   #map-wrapper {
     display: flex;
-    width: 100%;
+    width: 75%;
     align-items: center;
     justify-content: center;
+    
   }
 .map {
   width: 100%;
@@ -213,6 +214,13 @@ h3 {
 
 .index{
   max-width: 100%;
+  }
+  #head {
+    display: none;
+  }
+
+  #vid-wrap {
+    width: 500px
   }
 }
 
@@ -261,4 +269,21 @@ h3 {
 .index{
   max-width: 100%;
   }
+
+#vid-wrap {
+  width: 100%;
+}
+
+#video {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.book-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  justify-items: left;
+}
 }

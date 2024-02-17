@@ -25,14 +25,21 @@ On the 'Tours' landing page, I felt it was important that the enquiry form was s
 
 Following my research prior to the project, I wanted to ensure that the website footer was clear and concise but also didn't impact the overall user experience on the website. Because of this, I chose to limit the contents of the footer and kept options to a minimum. The footer includes copyright information and links to my social platforms where users can further enquire about the website, it's content and the tours. 
 
+### Bugs -
+- When viewing the booking form through a mobile phone, the label for Date sometimes displays above the input field, sometimes displays to the side. There appears to be no pattern to what causes this bug. This has been tested on Chrome, Firefox and Safari and the issue seems to appear more frequently on Chrome.
+- When viewed on a mobile (browser dependant) the video container doesnt always render the full width of the screen. Again, this appears to be a Chrome issue.
+
 ### Validator Testing -
 - HTML : No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/)
 - CSS : No errors were returned when passing through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
 # Deployment -
-This site was deployed via GitHub. The deployment instructions are as follows :
--   In the GitHub repository, navigate to the Settings tab
--   From the source section drop-down menu, select the Master Branch
--   Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+I deployed the site on GitHub using the following procedure:
+
+- Once on the project's repository, I clicked on the settings tab.
+- Then select the Pages tab.
+- Then under the Source section, I selected the Main branch from the dropdown menu and clicked Save.
+- After a few minutes, the page was deployed.
+
 
 The live link to the page is [here](https://lbrooks13.github.io/chernobyl-history/)
 
@@ -45,8 +52,7 @@ The live link to the page is [here](https://lbrooks13.github.io/chernobyl-histor
 ### Media -
 - All images within the site are provided, open source from [Pexels.com](https://www.pexels.com/)
 - The radiation symbol is from [Flaticon](https://www.flaticon.com/)
+- This README was constructed using [StackEdit](https://stackedit.io/).
+- Additional help with my README from [Ilyas Olgun](www.https://github.com/ilyasolgun11)
 
 Also, a huge thank you to my mentor, Luke Buchanan.
-
-
-> Written with [StackEdit](https://stackedit.io/).
